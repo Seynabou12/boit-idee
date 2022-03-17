@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import './composants/Header'
+import Header from './composants/Header.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Boite à Idée</h1>
+      <Header></Header>
     </div>
   );
 }
